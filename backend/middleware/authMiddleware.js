@@ -1,5 +1,5 @@
 import admin1 from 'firebase-admin';
-import User from '../models/UserModel.js'; 
+import User from '../models/userModel.js'; 
 import mongoose from 'mongoose';
 
 
