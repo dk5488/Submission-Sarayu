@@ -5,9 +5,7 @@ import MainCalendar from "./MainCalender";
 
 const MainCalendarPage = () => {
     const [update,setUpdate]=useState(1);
-    useEffect(()=>{
-      alert('Refresh once if you are logged in and cant see logout button')
-    })
+    
   return (
    
     

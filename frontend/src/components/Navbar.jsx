@@ -24,6 +24,10 @@ const Navbar = () => {
     window.addEventListener('storage', handleStorageChange);
     return () => window.removeEventListener('storage', handleStorageChange);
   }, []);
+  
+  useEffect(()=>{
+    alert('Refresh once if you are logged in and cant see logout button')
+  },[])
 
   return (
     <nav className="bg-white shadow-md">
